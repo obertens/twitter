@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    
+}
+
+.box {
+    width: 50% ;
+    height: 100vh;
+}
+
+.box-left  {
+    background-image: url('https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}   
+.box-left img {
+    width: 40%;
+
+}
+
+.box-right{
+    background-color:black;
+}
+input::placeholder {
+    background-color: black;
+    color: gray;
+    padding: 4%;
+    font-size: 20px;
+
+
+}
+
+input {
+    background-color: black;
+    border: 1px solid gray;
+    width: 207px;
+    height: 56px;
+    border-radius: 5px;
+    margin-right: 15px;
+    box-shadow: none;
+
+}
+form {
+    margin: 2% 0 5% 2%;
+}
+
+.password-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+p {
+    margin-left: 5%;
+    color: #1A91DA;
+    text-decoration: none;
+
+}
+.button-login {
+    width: 163px;
+    height: 48px;
+    border-radius: 48px;
+    background-color: black;
+    border: 1px solid #1A91DA;
+    color: #1A91DA;
+    font-size: 18px;
+    font-weight: bold;
+}
+.logo-container {
+        display: flex;
+        justify-content: flex-start;
+
+}
+.logo-container img {
+    width: 4%;
+    margin-left: 2%;
+}
